@@ -1,0 +1,21 @@
+@startuml
+abstract class org.uv.uvtest.sqlite.OnExecuteSQLite
+class org.uv.uvtest.Administrador
+class org.uv.uvtest.Bienvenida
+class org.uv.uvtest.Data.Adjetivo
+class org.uv.uvtest.Data.Alumno
+class org.uv.uvtest.Data.ConexionDB
+class org.uv.uvtest.Data.DaoAlumno
+class org.uv.uvtest.Data.Equivalencias
+class org.uv.uvtest.Data.Preguntas
+class org.uv.uvtest.DatosAlumnoForm
+class org.uv.uvtest.Inicio
+class org.uv.uvtest.MensajeFinal
+class org.uv.uvtest.PreguntasForm
+class org.uv.uvtest.Principal
+class org.uv.uvtest.TablaPuntuacion
+class org.uv.uvtest.sqlite.ConectionSQLite
+class org.uv.uvtest.views.AlumnoJInternalFrame
+interface org.uv.uvtest.Data.DaoGeneral
+org.uv.uvtest.Data.DaoAlumno --|> org.uv.uvtest.Data.DaoGeneral
+@enduml

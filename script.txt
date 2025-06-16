@@ -1,0 +1,14 @@
+
+CREATE TABLE IF NOT EXISTS alumnos(
+dni TEXT PRIMARY KEY, 
+nombre TEXT NOT NULL,
+ap_paterno TEXT NOT NULL,
+ap_materno TEXT NOT NULL,
+puesto TEXT,
+folio TEXT,
+fecha TEXT,
+calificacion REAL);
+
+ALTER TABLE alumnos ADD COLUMN normal REAL;
+ALTER TABLE alumnos ADD COLUMN motivacion REAL;
+ALTER TABLE alumnos ADD COLUMN presicion REAL;
